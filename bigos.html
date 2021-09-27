@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section>
+  	<div id="recipe">
+
+	<div id="recipe-intro">
+	  <h1>Bigos</h1>
+	  <p>Bigos is a pickled cabbage and meat based dish. It is often a best way to utilise leftover hams, sausages and bacon. It is quite laborious in preparation, however the effort is definelly rewarded by the test of this dish. Bigos tastes great from the moment it's done, nevertheless it develops its taste with time when all ingredients get a chance to infuse together and its taste peaks on day 2 or 3 after preparation.</p>
+	  <p>Bon Appetit!</p>
+	</div>
+
+    <div id="recipe-intro-pic"><img src="images/bigos.jpg" alt="Bigos" width="300" height = "300"></div>
+		
+    <table id="table">
+      <tr>
+        <th>Difficulty</th>
+        <th>Preparation time:</th>
+        <th>Total time:</th>
+		<th>Portions:</th>
+      </tr>
+      <tr>
+        <td>MEDIUM</td>
+        <td><b>0</b> h <b>20</b> min</td>
+        <td><b>4</b> h <b>20</b> min</td>
+		<td><b>5</b></td>
+      </tr>
+    </table>
+		
+	<table id="table-ingredients">
+	   <tr>
+         <th>Ingredients:</th>
+	   </tr>
+	   <tr>
+		 <td>2.5kg pickled cabbage</td>
+	   </tr>
+	   <tr>
+		 <td>500g smoked bacon</td>
+	   </tr>
+	   <tr>
+		 <td>500g smoked ham</td>
+	   </tr>
+	   <tr>
+		 <td>500g Polish sausage</td>
+	   </tr>
+	   <tr>
+		 <td>100g prunes</td>
+	   </tr>
+	   <tr>
+		 <td>4 onions</td>
+	   </tr>
+	   <tr>
+		 <td>50g dried wild mushrooms</td>
+	   </tr>
+	   <tr>
+		 <td>50g raisins</td>
+	   </tr>
+	   <tr>
+		 <td>5 tomatoes</td>
+	   </tr>
+	   <tr>
+		 <td>tomato puree</td>
+	   </tr>
+	   <tr>
+		 <td>4 bay leaves</td>
+	   </tr>
+	   <tr>
+		 <td>6 grains of all spice</td>
+	   </tr>
+	   <tr>
+		 <td>1 tbsp marjoram</td>
+	   </tr>
+	   <tr>
+		 <td>1 tbsp paprika</td>
+	   </tr>
+	   <tr>
+		 <td>1 tbsp oregano</td>
+	   </tr>
+	   <tr>
+		 <td>salt and pepper to taste</td>
+	   </tr>
+	   <tr>
+		 <td>1 glass red wine</td>
+	   </tr>
+
+	</table>
+		
+	<div id="recipe-desc1">
+	  <h3>Method:</h3>
+	  <ol>
+		  <li>Rinse and chop the cabbage. Place in a big pot, cover with water and boil.</li><br>
+		  <li>Dice and fry onion until soft, then add diced sausage, ham and bacon and fry for further 15min. Add fried onion and meats to the cabbage.</li><br>
+		  <li>Peel tomatoes and add to the pot as well.</li><br>
+		  <li>Add bay leaves, all spice, marjoram, paprika, oregano, prunes and raisins to the pot and boil all together on low heat.</li><br>
+		  <li>Add red wine, tomato puree, salt and pepper.</li><br>
+		  <li>Cook the bigos for about 4 hr on very low heat mixing from time to time so that it doesn’t stick to the bottom of the pot.</li><br>
+		  <li>Serve with bread or mashed potatoes. Enjoy! </li>
+	  </ol>
+	</div>
+    </div>
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>

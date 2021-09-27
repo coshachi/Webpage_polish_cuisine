@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section>
+  	<div id="recipe">
+	<div id="recipe-intro">
+	  <h1>Greek fish</h1>
+	  <p>Don’t be confused by the name of this dish. Although Greek fish originates from Greece it has become a traditional (but not exclusive) Christmas Eve dish as Poles do not eat any meat on Christmas Eve. Aside from Christmas, Greek fish is often prepared for family and friends gatherings.</p>
+	</div>
+	
+    <div id="recipe-intro-pic"><img src="images/greekfish.jpg" alt="Greek fish" width="300" height = "300"></div>
+		
+    <table id="table">
+      <tr>
+        <th>Difficulty</th>
+        <th>Preparation time:</th>
+        <th>Total time:</th>
+		<th>Portions:</th>
+     </tr>
+     <tr>
+        <td>EASY</td>
+        <td><b>0</b> h <b>15</b> min</td>
+        <td><b>0</b> h <b>25</b> min</td>
+		<td><b>5</b></td>
+     </tr>
+    </table>
+	
+	<table id="table-ingredients1">
+	   <tr>
+         <th>Ingredients:</th>
+		 <th>Sauce ingredients:</th>
+	   </tr>
+	   <tr>
+		 <td>about 1.5 kg of frozen fish slices (pollock, hake, cod or other according to your taste)</td>
+		 <td>4 medium carrots</td>
+	   </tr>
+	   <tr>
+		 <td>oil</td>
+		 <td>4 medium onions</td>
+	   </tr>
+	   <tr>
+		 <td>flour</td>
+		 <td>tomato paste – 100g</td>
+	   </tr>
+	   <tr>
+		 <td>2 eggs</td>
+		 <td>spicy ketchup - about 1/2 cup</td>
+	   </tr>
+	   <tr>
+		 <td>salt</td>
+		 <td></td>
+	   </tr>
+
+	</table>
+
+	<div id="recipe-desc">
+	  <h3>Fish:</h3>
+	  <ol>
+		  <li>Defrost, dry fish with a paper towel and salt to taste.</li><br>
+		  <li>Cut into small pieces.</li><br>
+		  <li>Whisk eggs with fork, add salt, pepper and a bit of milk and whisk together.</li><br>
+		  <li>Coat fish pieces in flour, whisked eggs and flour again.</li><br>
+		  <li>Oil fry the fish pieces. </li><br>
+	  </ol>
+		
+	  <h3>Sauce:</h3>
+	  <ol>
+          <li>Cut onion into quarters and slice.</li><br>
+		  <li>Grate carrots (coarse mesh).</li><br>
+		  <li>Fry onions and carrots together until semi-soft (al-dente).</li><br>
+		  <li>Add salt, pepper, tomato paste, ketchup and mix.</li><br>		
+	  </ol>
+		
+	  <h3>Combined:</h3>
+	  <ol>
+          <li>Layer the fried fish in a bowl placing hot sauce in between each layer.</li><br>
+		  <li>Cool down and serve. </li><br>
+	  </ol>
+		
+	 </div>
+    </div>
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>

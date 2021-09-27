@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+  
+  <aside>
+    <div class="vertical-menu">
+      
+      <p><a href="./searchbyregion.html" class="active">Polish Provinces:</a></p>
+      
+        <a href="./greaterpoland.html">Greater Poland</a>
+        <a href="./kuyavian.html">Kuyavian-Pomeranian</a>
+        <a href="./lesserpoland.html">Lesser Poland</a>
+        <a href="./lodz.html">Łódź</a>
+        <a href="./lowersilesian.html">Lower Silesian</a>
+        <a href="./lublin.html">Lublin</a>
+        <a href="./lubusz.html">Lubusz</a>
+        <a href="./masovian.html">Masovian</a>
+        <a href="./opole.html">Opole</a>
+        <a href="./podlaskie.html">Podlaskie</a>
+        <a href="./pomeranian.html">Pomeranian</a>
+        <a href="./silesian.html">Silesian</a>
+        <a href="./subcarpathian.html">Subcarpathian</a>
+        <a href="./hollycross.html">Holly Cross</a>
+        <a href="./warmian.html">Warmian-Masurian</a>
+        <a href="./westpomeranian.html">West Pomeranian</a>
+      
+    </div>
+  </aside>
+  
+  <section id="sectionmap">
+    
+    <img width="512" alt="Voivodeships of Poland" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Voivodeships_of_Poland.svg/512px-Voivodeships_of_Poland.svg.png">
+	<h6>image from: <a target="_blank" title="Original: Odder; [CC BY-SA (https://creativecommons.org/licenses/by-sa/2.5)]" href="https://commons.wikimedia.org/wiki/File:Voivodeships_of_Poland.svg">wikimedia</a></h6>
+    
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>

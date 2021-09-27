@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section>
+  	<div id="recipe">
+	<div id="recipe-intro">
+	  <h1>Faworki</h1>
+	  <p>Faworki is an excellent snack for someone with a sweet tooth. This lightly sugar snack is well know and well liked throughout all parts of Poland. It is generally prepared for a ‘Fat Thursday’ which is celebrated on the last Thursday before Ash Wednesday. Fat Thursday is dedicated to eating Faworki and doughnuts to mark the start of Lent.</p>
+	  <p>Bon Appetit!</p>
+	</div>
+	
+    <div id="recipe-intro-pic"><img src="images/faworki.jpg" alt="Faworki" width="300" height = "300"></div>
+		
+    <table id="table">
+      <tr>
+        <th>Difficulty</th>
+        <th>Preparation time:</th>
+        <th>Total time:</th>
+		<th>Portions:</th>
+     </tr>
+     <tr>
+        <td>EASY</td>
+        <td><b>0</b> h <b>25</b> min</td>
+        <td><b>0</b> h <b>25</b> min</td>
+		<td><b>6</b></td>
+     </tr>
+    </table>
+
+	<table id="table-ingredients">
+	   <tr>
+         <th>Ingredients:</th>
+	   </tr>
+	   <tr>
+		 <td>6 egg yolks</td>
+	   </tr>
+	   <tr>
+		 <td>400g plain flour</td>
+	   </tr>
+	   <tr>
+		 <td>12 tbsp sour cream</td>
+	   </tr>
+	   <tr>
+		 <td>2 tsp baking powder</td>
+	   </tr>
+	   <tr>
+		 <td>2 tbsp alcohol (vodka)</td>
+	   </tr>
+	   <tr>
+		 <td>pinch of salt</td>
+	   </tr>
+	   <tr>
+		 <td>oil for frying</td>
+	   </tr>
+	   <tr>
+		 <td>icing sugar for decorating</td>
+	   </tr>
+
+	</table>
+		
+	<div id="recipe-desc1">
+	  <h3>Method:</h3>
+	  <ol>
+		  <div class="list"><li>
+		    <div class="rec-desc">Mix together flour, egg yolks, baking powder, alcohol, salt and sour cream.</div>
+		    <div class="rec-desc-pic">
+			  <img src="images/faworki1.jpg" alt="Faworki preparing 1" width="200" height = "200"></div></li></div>
+		  
+		  <div class="list"><li>
+			<div class="rec-desc">Knead the dough, from time to time hit the dough with a roller until you can see air bubbles.</div>
+			<div class="rec-desc-pic">
+		      <img src="images/faworki2.jpg" alt="Faworki preparing 2" width="200" height = "200"></div></li></div>
+		  
+		  <div class="list"><li>
+		    <div class="rec-desc">Roll the dough into a thin sheet and cut into slices with 15cm in length and 3-4cm in width.</div>
+			<div class="rec-desc-pic">
+		      <img src="images/faworki3.jpg" alt="Faworki preparing 3" width="200" height = "200"></div></li></div>
+		  
+		  <div class="list"><li>
+		    <div class="rec-desc">Cut a small hole in each of the slices and put the tip of the slice through the hole so that little knot forms (faworki).</div>
+		    <div class="rec-desc-pic">
+		      <img src="images/faworki4.jpg" alt="Faworki preparing 4" width="200" height = "200"></div></li></div>
+		  
+		  <div class="list"><li>
+		  <div class="rec-desc">Deep fry the faworki.</div>
+		    <div class="rec-desc-pic">
+		      <img src="images/faworki5.jpg" alt="Faworki preparing 5" width="200" height = "200"></div></li></div>
+		  
+		  <li>Take out onto a sheet of kitchen towel to remove excess oil.</li><br>
+		  <li>Place the fried faworki on the plate and dust with icing sugar. </li>
+	  </ol>
+	</div>
+   </div>
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>

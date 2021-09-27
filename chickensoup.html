@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section>
+  	<div id="recipe">
+	<div id="recipe-intro">
+	  <h1>Chicken soup</h1>
+	  <p>Chicken soup is the most popular soup across Poland. This soup is often a Sunday must have for many Poles. Easy to prepare, chicken soup is the favourite soup for many. Chicken soup is also great at fighting cold and flu symptoms. It is usually served with a thin, short string, egg pasta.</p>
+	  <p>Bon Appetit!</p>
+	</div>
+	
+    <div id="recipe-intro-pic"><img src="images/chicken soup.jpg" alt="Chicken soup" width="300" height = "300"></div>
+		
+    <table id="table">
+      <tr>
+        <th>Difficulty</th>
+        <th>Preparation time:</th>
+        <th>Total time:</th>
+		<th>Portions:</th>
+     </tr>
+     <tr>
+        <td>EASY</td>
+        <td><b>0</b> h <b>30</b> min</td>
+        <td><b>2</b> h <b>30</b> min</td>
+		<td><b>4</b></td>
+     </tr>
+    </table>
+
+	<table id="table-ingredients">
+	   <tr>
+         <th>Ingredients:</th>
+	   </tr>
+	   <tr>
+		 <td>4 chicken legs</td>
+	   </tr>
+	   <tr>
+		 <td>1 onion</td>
+	   </tr>
+	   <tr>
+		 <td>3 carrots</td>
+	   </tr>
+	   <tr>
+		 <td>1 parsnip</td>
+	   </tr>
+	   <tr>
+		 <td>2 chicken stock cubes</td>
+	   </tr>
+	   <tr>
+		 <td>4 grains of all spice</td>
+	   </tr>
+	   <tr>
+		 <td>2 bay leaves</td>
+	   </tr>
+	   <tr>
+		 <td>parsley</td>
+	   </tr>
+
+	</table>
+		
+	<div id="recipe-desc1">
+	  <h3>Method:</h3>
+	  <ol>
+		  <li>Rinse chicken legs (optionally remove the skin), place in a pot, add 2L of water and boil. A foam will form on the top of the water, remove it with a spoon.</li><br>
+		  <li>Peel the vegetables and cut carrot, leek and parsnip into smaller pieces.</li><br>
+		  <li>Cut onion in half and sear on the stove or pan.</li><br>
+		  <li>Add all vegetables, chicken stock cubes, all-spice and bay leaves into the pot and cook on low heat for 2 hours.</li><br>
+		  <li>Remove vegetables and chicken from the soup.</li><br>
+		  <li>Add salt and pepper to taste. Serve with pasta, cooked carrots and shredded chicken.</li><br>
+		  <li>Enjoy!</li>
+	  </ol>
+	</div>
+    </div>
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>

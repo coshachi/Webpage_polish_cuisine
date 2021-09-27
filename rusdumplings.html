@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <title>Polish Cuisine</title>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Open+Sans&display=swap" rel="stylesheet"> 
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+<body>
+    
+  <header>
+    <div id="banner">
+      <a href="./index.html"><img class="banner" src="images/logo4.png" width="475" height="90" alt="logo"/></a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html">HOME</a>
+      <a href="./searchbyregion.html">SEARCH BY REGION</a>
+      <a href="./cityguides.html">CITY GUIDES</a>
+      <a href="./about.html">ABOUT</a>
+      <a href="./contact.html">CONTACT</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section>
+  	<div id="recipe">
+	<div id="recipe-intro">
+	  <h1>Rus dumplings</h1>
+	  <p>Rus dumplings are dumplings stuffed with potato and cottage cheese. They are not well known through Poland, but are rightfully appreciated in the south-east of Poland, mainly the Subcarpathian region. Served with sour cream or fried onion, this simple dish is undervalued in many regions, however it is definitely the one to try at home or when in Poland.</p>
+	  <p>Bon Appetit!</p>
+	</div>
+	
+    <div id="recipe-intro-pic"><img src="images/rus dumplings.jpg" alt="Rus dumplings" width="300" height = "300"></div>
+	
+    <table id="table">
+      <tr>
+        <th>Difficulty</th>
+        <th>Preparation time:</th>
+        <th>Total time:</th>
+		<th>Portions:</th>
+     </tr>
+     <tr>
+        <td>HARD</td>
+        <td><b>1</b> h <b>50</b> min</td>
+        <td><b>3</b> h <b>00</b> min</td>
+		<td><b>6</b></td>
+     </tr>
+    </table>
+
+	<table id="table-ingredients1">
+	   <tr>
+         <th>Dough ingredients:</th>
+		 <th>Stuffing ingredients:</th>
+	   </tr>
+	   <tr>
+		 <td>500g all-purpose flour</td>
+		 <td>200g cottage cheese (remove the liquid)</td>
+	   </tr>
+	   <tr>
+		 <td>½ tsp salt</td>
+		 <td>400g potatoes</td>
+	   </tr>
+	   <tr>
+		 <td>4 tbsp vegetable oil</td>
+		 <td>3 medium onions</td>
+	   </tr>
+	   <tr>
+		 <td>250ml of hot (not boiling) water</td>
+		 <td></td>
+	   </tr>
+	   <tr>
+		 <td>2 eggs</td>
+		 <td></td>
+	   </tr>
+		
+	</table>
+
+		
+	<div id="recipe-desc">
+	  <h3>Method:</h3>
+	  <ol>
+		 <div class="list"><li><b>DOUGH:</b><br>
+		   <div class="rec-desc1">
+		     Place the flour in a wide bowl. Add salt, oil and water. Mix ingredients together (can do it with the wooden spoon to begin with as the it might be hot). Mix the dough until it is soft and does not stick to your fingers. Wrap the dough in the kitchen foil and set aside for 30 min.
+		   </div>
+		   <div class="rec-desc-pic"> 
+			 <img src="images/dumplings dough1.jpg" alt="Dough 1" width="200" height = "200">
+		   </div></li></div>
+	
+		 <div class="list"><li><b>STUFFING:</b><br>
+		   <div class="rec-desc1">
+		     Boil and mash the potatoes. Let cool. In the meantime dice and fry the onion until it turns golden. Once the mashed potatoes are cold, add ¾ of the fried onion and cottage cheese to them. Mix it all together, add salt and pepper to taste.
+		   </div>
+		   <div class="rec-desc-pic"> 
+			 <img src="images/rus dumplings stuffing1.jpg" alt="Dough 1" width="200" height = "200">
+		   </div></li></div>
+
+		 <div class="list"><li><b>COMBINED TOGETHER:</b><br>
+		   <div class="rec-desc1">
+		     Get about a third of the of the dough and roll into a thin sheet. Cut circles of the sheet dough with a glass. Place the stuffing in the middle of the circle, fold in half and stick the edges together with your fingertips. Repeat with the remaining dough. Once dumplings are ready, boil water in a big pot (salt water to taste). Place dumplings in the boiling water and cook until they float to the top and the water starts boiling again. Serve on a plate and sprinkle with some fried onion (optional).
+		   </div>
+		   <div class="rec-desc-pic"> 
+			 <img src="images/dumplings combined1 rus1.jpg" alt="Combined 2" width="200" height = "200">
+			 <img src="images/dumplings combined2.jpg" alt="Combined 4" width="200" height = "200">
+		   </div></li></div>
+		  
+	  </ol>
+	 </div>
+    </div>
+  </section>
+
+  <footer>
+	  <p>2020 Web Design Pre Degree Course</p>
+	  <p><a href="mailto:mkpublicmail@gmail.com">email: mkpublicmail@gmail.com </a> <br> <a target="_blank" href="https://www.facebook.com/polishcuisine.b1.biz"> <img src="images/facebook.png" width="11" height="11" alt="facebook">facebook</a><a target="_blank" href="https://twitter.com/CuisinePolish"> <img src="images/twitter.png" width="11" height="11" alt="twitter">twitter</a></p>
+  </footer>
+  
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+        }
+    }
+  </script>
+
+</body>
+</html>
